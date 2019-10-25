@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/meetingapplication/static/js/main.c47fdffa.chunk.js",
+    "main.js.map": "/meetingapplication/static/js/main.c47fdffa.chunk.js.map",
+    "runtime-main.js": "/meetingapplication/static/js/runtime-main.3e9c86ae.js",
+    "runtime-main.js.map": "/meetingapplication/static/js/runtime-main.3e9c86ae.js.map",
+    "static/css/2.11f871ab.chunk.css": "/meetingapplication/static/css/2.11f871ab.chunk.css",
+    "static/js/2.551c0468.chunk.js": "/meetingapplication/static/js/2.551c0468.chunk.js",
+    "static/js/2.551c0468.chunk.js.map": "/meetingapplication/static/js/2.551c0468.chunk.js.map",
+    "index.html": "/meetingapplication/index.html",
+    "precache-manifest.770e1c98180a2648b4aca81fb4fac5a0.js": "/meetingapplication/precache-manifest.770e1c98180a2648b4aca81fb4fac5a0.js",
+    "service-worker.js": "/meetingapplication/service-worker.js",
+    "static/css/2.11f871ab.chunk.css.map": "/meetingapplication/static/css/2.11f871ab.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e9c86ae.js",
+    "static/css/2.11f871ab.chunk.css",
+    "static/js/2.551c0468.chunk.js",
+    "static/js/main.c47fdffa.chunk.js"
+  ]
+}
