@@ -8,7 +8,7 @@ class App extends React.Component {
     this.state = { items: [] };
   }
   componentDidMount() {
-    axios.get(`${'https://cors-anywhere.herokuapp.com/'}http://totalcloud-static.s3.amazonaws.com/intern.json`)
+    axios.get('http://totalcloud-static.s3.amazonaws.com/intern.json')
     .then(a=>{
       const persons = a.data;
         this.setState({items: persons });
@@ -27,7 +27,7 @@ class App extends React.Component {
         k=d.concat(f)
       })}
       console.log(this.state.items)
-      console.log("hi")
+      console.log("hi i guess")
     return (
       <div>
         <List tasks={this.state.items} array={k}/>
