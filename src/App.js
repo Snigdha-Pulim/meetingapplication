@@ -27,6 +27,7 @@ class App extends React.Component {
         k=d.concat(f)
       })}
       console.log(this.state.items)
+      console.log("hi")
     return (
       <div>
         <List tasks={this.state.items} array={k}/>
