@@ -8,7 +8,7 @@ class App extends React.Component {
     this.state = { items: [] };
   }
   componentDidMount() {
-    axios.get('https://totalcloud-static.s3.amazonaws.com/intern.json')
+    axios.get('http://totalcloud-static.s3.amazonaws.com/intern.json')
     .then(a=>{
       const persons = a.data;
         this.setState({items: persons });
